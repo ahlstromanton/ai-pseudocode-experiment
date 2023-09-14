@@ -21,3 +21,23 @@ Also, under the customer testimonys, could you add a button that when you click 
 
 The top menu is now a bit broken. Please go back to the first rendition with the logo to the left, app name in the middle and four menu items to the right. Make sure it is max 50px high. Please render the full html file with all the info you have until now, plus these changes.
 
+### 5
+Second commit
+
+### 6
+You're almost there. A few changes:
+- There should not be a "subscribe now" button in the menu
+- There should not be "subscribe now" buttons in the customer testimony modules.
+- There is still nothing happening when clicking the "subscribe now" button that should be there. (Have you forgot to add it to the html file)? 
+
+### 7
+I'm getting a "subscribe button is null" error for line 5 in the js file. Also, still nothing happens when I press the button. Maybe you need some better instructions.
+
+When pressing that button, the JS file should add a form into the DOM, containing the following fields:
+- Your name
+- Your email address
+- A new button saying "confirm"
+- When that button is pressed, it should display a text next to it saying "Thank you for subscribing"
+
+### 8
+Third commit

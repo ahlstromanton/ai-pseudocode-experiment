@@ -1,0 +1,35 @@
+Toolbox (should not be included in the actual files):
+  - Make sure the site is responsive
+  - 
+
+Header:
+  - [Standard HTML Header]
+  - Parameters:
+    - Link to js file called "app.js"
+    - Link to CSS file called "style.css"
+
+Body:
+  Top menu:
+    - Layout:
+      - Sticky in top
+      - Logo at the very left (can be a black box div as placeholder)
+      - App name in the middle (call it "My Pseudo App" for now)
+      - Four menu items to the right (these should be links to different pages, can be empty references for now):
+        - Home
+        - About
+        - Shop
+        - Contact
+  First Section:
+    - An image to the left (could be an empty div with some placeholder text for now)
+    - A text block to the right
+  Second Section:
+    - Three vertical "customer testimony" cards that should each include an quote headline and a quote body
+
+Styling:
+  - Font:
+      - Roboto
+  - Colors:
+      - Background should be a blue gradient, nice on the eyes, quite toned down
+      - Main color (for backgrounds and stuff) should be some off white, dark grey, and faded green. 
+      - You can add colors as you see fit as well, but dont overdo it.
+

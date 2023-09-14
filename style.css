@@ -1,25 +1,21 @@
-/* Reset some default styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global styles */
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to bottom, #c7d8e8, #94a6c1);
-    /* Blue gradient background */
 }
 
-/* Header styles */
 header {
     /* Add any specific header styles here */
 }
 
-/* Top menu styles */
 .top-menu {
     background: white;
+    max-height: 50px;
     position: sticky;
     top: 0;
     display: flex;
@@ -31,9 +27,7 @@ header {
 .logo {
     width: 100px;
     height: 100px;
-    /* Adjust as needed */
     background: black;
-    /* Placeholder for logo */
 }
 
 .app-name {
@@ -49,10 +43,9 @@ header {
 .menu-items a {
     text-decoration: none;
     color: #333;
-    /* Dark grey */
+    margin-right: 10px;
 }
 
-/* First section styles */
 .first-section {
     display: flex;
     align-items: center;
@@ -62,32 +55,39 @@ header {
 .image-placeholder {
     flex: 1;
     background: #ccc;
-    /* Placeholder for image */
     height: 300px;
-    /* Adjust as needed */
 }
 
 .text-block {
     flex: 2;
     padding: 20px;
-    background: #fff;
-    /* White background for text block */
 }
 
-/* Second section styles */
 .second-section {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     background: #f0f5e6;
-    /* Faded green background */
 }
 
 .testimonial-card {
     flex: 1;
     padding: 20px;
     background: #fff;
-    /* White background for cards */
     margin-right: 10px;
-    /* Adjust spacing */
+}
+
+.subscribe-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subscribe-button-container {
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    display: none;
+    padding: 20px;
+    background: #fff;
 }
